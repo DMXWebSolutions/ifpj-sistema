@@ -88,29 +88,18 @@ export default class NotificationsSend extends Component {
                                 placeholder='Escolha a turma'
                             />
                         </Form.Field>
-                        <Form.Field width={4}>
-                            <Dropdown
-                                fluid
-                                search 
-                                name='classroom'
-                                onChange={this.handleChange}
-                                options={classList !== undefined ? classList : []}
-                                selection
-                                placeholder='Escolha o aluno'
-                            />
-                        </Form.Field>
                         <Form.Field width={8}>
                             <Form.Input
                                 fluid
                                 name='title'
                                 onChange={this.handleChange}
-                                placeholder='Titulo da notificação'
+                                placeholder='Digite a matrícula do aluno'
                             />
                         </Form.Field>
                     </Form.Group>
                     <Form.Field>
                         <TextArea 
-                            placeholder='Escreva o conteudo da notificação' 
+                            placeholder='Escreva o conteúdo da notificação' 
                             style={{ minHeight: 100 }} 
                             name='message'
                             onChange={this.handleChange}

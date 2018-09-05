@@ -4,9 +4,9 @@ import { Dropdown, Image } from 'semantic-ui-react'
 
 
 const options = [
-  { key: 'user', text: 'Account', icon: 'user' },
-  { key: 'settings', text: 'Settings', icon: 'settings' },
-  { key: 'sign-out', text: 'Sign Out', icon: 'sign out' },
+  { key: 'informações', text: 'Conta', icon: 'user' },
+  { key: 'settings', text: 'Notificações', icon: 'settings' },
+  { key: 'sign-out', text: 'Sair', icon: 'sign out' },
 ]
 
 const MyUserOptions = (props) => (

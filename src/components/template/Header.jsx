@@ -7,7 +7,7 @@ import { Image } from 'semantic-ui-react'
 
 const trigger = (
     <span>
-      <Image avatar src={'https://randomuser.me/api/portraits/women/90.jpg'} /> {'faker user'}
+      <Image avatar src={logo} /> {'Usuário'}
     </span>
 )
   
