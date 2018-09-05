@@ -1,11 +1,9 @@
 import './Auth.css'
 import React, { Component } from 'react';
 import { Form } from 'semantic-ui-react';
-import { Link } from 'react-router-dom'
-import { browserHistory } from 'react-router'
 import { api } from '../../services/api'
 import { isAuthenticated, logOut } from '../auth/auth'
-import { setUserData, getUserData, setToken, getToken } from '../../utils/sessionStorages'
+import { setUserData, setToken } from '../../utils/sessionStorages'
 
 import { toast, ToastContainer } from 'react-toastify';
 import logo from '../../assets/imgs/logo2.png'
@@ -57,7 +55,6 @@ export default class Auth extends Component {
 
             if(authenticated !== true ) {
                 console.log('chegou')
-                // sessionStorage.clear()
                 this.errorMessage('Você não está autorizado a acessar o sistema')
                 return this.setState({ register: '', password: ''})
             }

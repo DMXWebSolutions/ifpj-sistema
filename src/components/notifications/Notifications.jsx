@@ -18,7 +18,12 @@ const panes = [
         </Tab.Pane>
     },
 
-    {menuItem: 'Enviar Comunicados', render: () => 
+    {menuItem: 'Enviar Comunicado por Turma', render: () => 
+        <Tab.Pane attached={false}> 
+            <NotificationsSend/>
+        </Tab.Pane>
+    },
+    {menuItem: 'Enviar Comunicado por Aluno', render: () => 
         <Tab.Pane attached={false}> 
             <NotificationsSend/>
         </Tab.Pane>

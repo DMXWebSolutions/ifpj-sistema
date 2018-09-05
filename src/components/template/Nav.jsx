@@ -5,11 +5,12 @@ import { logOut } from '../auth/auth'
 import { getUserData } from '../../utils/sessionStorages'
 import MyUserOptions from '../user/MyUserOptions'
 import { Image } from 'semantic-ui-react'
+import logo from '../../assets/imgs/logo.png'
 
 const trigger = (
     <div className='user-profile'>
-      <Image circular={true} size={'tiny'} src={'https://randomuser.me/api/portraits/women/90.jpg'} /> 
-      {'faker user'}
+      <Image circular={true} size={'tiny'} src={logo} /> 
+      {'Usuário'}
     </div>
 )
 
