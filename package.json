@@ -1,7 +1,7 @@
 {
   "name": "ifpj-web",
   "version": "0.1.0",
-  "proxy": "https://ifpjApp.herokuapp.com/",
+  "proxy": "https://ifpj-api.atualldigital.com.br",
   "private": true,
   "dependencies": {
     "axios": "0.18.0",
